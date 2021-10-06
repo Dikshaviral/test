@@ -1,0 +1,14 @@
+.review
+{
+    max-height: 20vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15rem;
+}
+.review img{
+    height: 10%;
+    width: 20%;
+    border-radius: 100%;
+}

@@ -1,0 +1,46 @@
+.logo {
+    grid-area: logo;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 115px;
+  }
+  
+  .navbar{
+      font-weight: bold;  
+      position: sticky;
+     
+  }
+  .collapse{
+      margin-right: 95px;
+  }
+  .nav-link{
+   border-radius: 45%;
+   font-weight: bold;
+  margin-right: 25px;
+  font-family: 'Open Sans Condensed', sans-serif; 
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+  .dropdown-item{
+      font-weight: bold;
+  }
+   
+ .dropdown-item:active {
+    background-color: rgb(203, 245, 19) !important;
+    }
+ .dropdown-item:hover {
+        background-color:rgb(250,185,0) !important;
+        }
+.btn-warning
+{
+
+    border-radius: 20px;
+    width: 141px;
+    height: 45px;
+    border-radius: 100px !important;
+    padding-bottom: 10px;
+
+}
+
+    

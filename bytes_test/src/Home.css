@@ -1,0 +1,39 @@
+.body
+{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1600880292203-757bb62b4baf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&w=1080&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position:center ;
+    background-color: rgba(123, 204, 152,0.8);
+    text-align: center;
+    padding-inline: 5em;
+    backdrop-filter: blur(15px);
+}
+.body h1,p,button{
+    margin-bottom: 50px;
+    color: black;
+
+   
+}
+.body h1{
+    font-size: 5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-shadow: 1px 1px 2px black;
+}
+.body button
+{
+    padding: 20px;
+    padding-inline: 40px;
+    background-color: ghostwhite;
+    font-size: 15px;
+    font-weight: 400;
+}
+.body p{
+    font-size: 1rem;
+    font-weight: 600;
+}
